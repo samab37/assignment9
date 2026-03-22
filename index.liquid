@@ -1,7 +1,11 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: Assignment 9.5
 ---
-
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<div class="card">
+  <h2 class="card-header">Name Generator</h2>
+  <div class="card-body" x-data="{name: '', names: ['Donna', 'Henry', 'Bob', 'Jillian', 'Sarah', 'Courtney', 'Sean', 'Julianna', 'Jonathan', 'Logan']}">
+    <h1 class="card-title" x-text="name"></h1>
+    <button class="btn btn-primary" @click="name = names[Math.floor(Math.random() * names.length)]">Generate Name</button>
+  </div>
+</div>

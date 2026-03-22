@@ -1,7 +1,7 @@
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
-    background: #2D3142;
+    background: #274690;
     padding: 0 40px;
     text-align: center;
 }
@@ -36,6 +36,7 @@ nav ul li a {
 h1 {
     font-size: 8em;
     letter-spacing: -2px;
+    color: #274690;
 }
 
 h1 strong {
@@ -45,6 +46,33 @@ h1 strong {
     -webkit-text-fill-color: transparent;
 }
 
+h2 {
+    color: white;
+}
+
 img.about {
     opacity: 0.5;
+}
+
+.card {
+    margin: 100px;
+    border-color: #302B27;
+}
+
+.btn-primary {
+  background-color: #274690;
+  border-color: #274690;
+}
+
+.btn-primary:hover {
+  background-color: #1B264F;
+  border-color: #1B264F;
+}
+
+.card-body {
+  background-color: #F5F3F5;
+}
+
+.card-header {
+  background-color: #302B27;
 }
